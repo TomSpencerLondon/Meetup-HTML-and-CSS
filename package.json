@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "node app.js",
+    "scss": "sass --watch gov-styles.sass:public/styles2.css"
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,10 @@
   "homepage": "https://github.com/TomSpencerLondon/Meetup-HTML-and-CSS#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "govuk-frontend": "^3.6.0",
+    "node-sass": "^4.14.0",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "sass": "^1.26.5"
   }
 }
